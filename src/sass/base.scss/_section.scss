@@ -1,0 +1,12 @@
+.section {
+  padding-top: 83px;
+  padding-bottom: 83px;
+  &:nth-child(even) {
+    background-color: $secondary-bgc;
+  }
+
+  // @include mq(desktop) {
+  //   padding-top: 110px;
+  //   padding-bottom: 110px;
+  // }
+}

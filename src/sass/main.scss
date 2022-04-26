@@ -4,4 +4,18 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './example';
+
+@import './utils.scss/reset';
+@import './utils.scss/visually-hidden';
+@import './utils.scss/variables';
+@import './utils.scss/mixins';
+@import './utils.scss/breakpoints';
+
+@import './base.scss/base';
+//main
+@import './hero';
+@import './header';
+@import './about';
+@import './skills';
+@import './portfolio';
+@import './footer';

@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $secondary-text-color;
+}
+.nav__link {
+  @include fonts();
+  color: $link-main-color;
+  &--accent {
+    color: $link-accent-color;
+  }
+}

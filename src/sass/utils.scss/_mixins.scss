@@ -1,0 +1,15 @@
+@import '../utils.scss/breakpoints';
+
+//flex
+
+@mixin flex($dp: flex, $jc: center, $ai: center) {
+  display: $dp;
+  justify-content: $jc;
+  align-items: $ai;
+}
+// font
+@mixin fonts($fz: 18px, $lh: 1.22, $fw: 500) {
+  font-size: $fz;
+  line-height: $lh;
+  font-weight: $fw;
+}

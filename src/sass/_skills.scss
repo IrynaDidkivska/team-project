@@ -1,0 +1,26 @@
+.section__title {
+  @include fonts(32px, 1.32, 700);
+  color: $text-color;
+
+  &--skils {
+    margin-bottom: 69px;
+  }
+}
+.section__text {
+  @include fonts();
+  &--skils {
+    margin-bottom: 83px;
+  }
+}
+.skills {
+  @include flex(flex, space-between);
+}
+
+.skills__image {
+  margin-bottom: 23px;
+}
+.skills__text {
+  @include fonts(14px, 1.25, 700);
+  text-align: center;
+  color: $secondary-text-color;
+}

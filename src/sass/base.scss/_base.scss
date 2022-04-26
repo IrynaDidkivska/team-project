@@ -1,0 +1,10 @@
+@import '../base.scss/container';
+@import '../base.scss/section';
+
+body {
+  font-family: 'Gilroy-Medium';
+}
+.title {
+  @include fonts(33px, 1.31, 700);
+  text-align: center;
+}

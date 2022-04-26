@@ -1,0 +1,7 @@
+.portfolio__pic {
+  margin: auto;
+}
+.portfolio__link {
+  @include fonts();
+  text-decoration-line: underline;
+}
