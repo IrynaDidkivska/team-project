@@ -1,8 +1,13 @@
 .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid $secondary-text-color;
+  display: none;
+
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 32px;
+    border-bottom: 1px solid $secondary-text-color;
+  }
 }
 .nav__link {
   @include fonts();

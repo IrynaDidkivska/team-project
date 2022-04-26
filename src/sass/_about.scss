@@ -1,6 +1,14 @@
+.about {
+  max-width: 385px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .section__title--about {
   margin-bottom: 30px;
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 17px;
+  }
 }
 .section__text--about:not(:last-child) {
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }

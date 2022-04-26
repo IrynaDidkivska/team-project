@@ -8,7 +8,6 @@
   @include fonts(47px, 1.25, 700);
 }
 .hero__text {
-  font-family: 'Gilroy-Medium';
   @include fonts();
 }
 
@@ -24,5 +23,12 @@
 
   &--accent {
     color: $link-accent-color;
+  }
+}
+.hero__pic {
+  @media screen and (min-width: $mobile) {
+    width: 943.61px;
+    height: 387px;
+    margin: auto;
   }
 }

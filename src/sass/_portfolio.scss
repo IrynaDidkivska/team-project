@@ -1,7 +1,23 @@
+.section__title--portfolio {
+  margin-bottom: 65px;
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 47px;
+  }
+}
+.portfolio__item:not(:last-child) {
+  margin-bottom: 78px;
+}
 .portfolio__pic {
   margin: auto;
+  margin-bottom: 33px;
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 45px;
+    width: 936.24px;
+    height: 510px;
+  }
 }
 .portfolio__link {
   @include fonts();
   text-decoration-line: underline;
+  color: $link-accent-color;
 }

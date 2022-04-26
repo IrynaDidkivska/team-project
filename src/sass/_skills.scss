@@ -3,24 +3,46 @@
   color: $text-color;
 
   &--skils {
-    margin-bottom: 69px;
+    margin-bottom: 50px;
+    @media screen and (min-width: $desktop) {
+      margin-bottom: 70px;
+    }
   }
 }
 .section__text {
   @include fonts();
-  &--skils {
-    margin-bottom: 83px;
+  &--subtitle {
+    margin-bottom: 70px;
+    @media screen and (min-width: $desktop) {
+      margin-bottom: 84px;
+    }
+  }
+  &--skills {
+    margin-bottom: 42px;
   }
 }
 .skills {
-  @include flex(flex, space-between);
+  display: block;
+  @media screen and (min-width: $desktop) {
+    @include flex(flex, space-between);
+  }
 }
 
 .skills__image {
+  display: inline-block;
   margin-bottom: 23px;
 }
 .skills__text {
   @include fonts(14px, 1.25, 700);
   text-align: center;
   color: $secondary-text-color;
+}
+.skills__icon {
+  margin-bottom: 82px;
+  &--figma {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 0;
+  }
 }

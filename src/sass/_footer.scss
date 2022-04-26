@@ -1,0 +1,56 @@
+.section__title--footer {
+  margin-bottom: 27px;
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 20px;
+  }
+}
+.section__text--footer {
+  margin-bottom: 40px;
+}
+.section__button {
+  min-width: 100%;
+  padding: 12px 0;
+  margin-bottom: 48px;
+  font-family: inherit;
+  @include fonts();
+  font-weight: 700;
+
+  cursor: pointer;
+
+  border: none;
+  color: $btn-text-color;
+  background-color: $btn-bgc;
+
+  border-radius: 50px;
+  @media screen and (min-width: $desktop) {
+    min-width: 180px;
+    margin-bottom: 80px;
+  }
+}
+.socials {
+  @include flex(flex, space-between);
+  margin-bottom: 49px;
+
+  @media screen and (min-width: $desktop) {
+    @include flex();
+  }
+}
+.socials__item:not(:last-child) {
+  @media screen and (min-width: $desktop) {
+    margin-right: 62px;
+  }
+}
+
+.list {
+  @include flex(flex, space-between);
+  @media screen and (min-width: $desktop) {
+    @include flex();
+  }
+}
+
+.list__text {
+  color: $secondary-text-color;
+}
+.list_link {
+  color: $link-main-color;
+}
